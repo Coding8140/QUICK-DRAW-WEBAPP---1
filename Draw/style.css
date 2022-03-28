@@ -1,0 +1,54 @@
+body
+{
+background-color:seagreen;
+}
+
+h1{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkkhaki;
+}
+
+canvas
+{
+border: 5px;
+border-radius: 20px;
+margin-top: 150px ;
+margin-left: 450px;
+ box-shadow: 5px 5px 5px purple;
+ box-shadow: 1px 1px 30px red;
+ animation-name: example;
+ animation-duration: 4s ;
+ animation-iteration-count: infinite;
+}
+
+@keyframes example
+{
+    from{box-shadow: 1px 1px 30px red ;}
+    to{box-shadow: 5px 5px 5px purple;}
+}
+
+p, span
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    padding-top: 9px ;
+}
+
+#score
+{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: -100px;
+    padding-top: 10px;
+}
+
+#time
+{
+font-size: 30px;
+margin-right: 20px;
+margin-top: -100px;
+padding-top: 10px;
+float: right;
+}
+
